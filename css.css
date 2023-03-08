@@ -1,0 +1,284 @@
+/* 
+    Created on : Feb 28, 2022, 9:29:03 PM
+    Author     : duc21
+*/
+        html {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    background-color: #d7eaf7;
+}
+
+.header-img {
+    width: 15%;
+}
+
+.header-nav {
+    width: 70%;
+}
+
+.header-nav ul{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.header-nav ul li{
+    list-style-type: none;
+    width: 16%;
+}
+
+.header-nav ul li a:hover {
+    background-color:#94caee;
+}
+
+.header-nav ul li a {
+    color: #045056;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #c4b897;
+    padding: 7px;
+    border-radius: 10px;
+
+}
+
+.cotainer1 {
+    margin-top: 2px;
+}
+
+.cotainer2 h2 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.benefit-col {
+    height: 300px;
+    border: 5px solid rgba(53, 98, 170, 0.1);
+    background-size: cover;
+    width: 20%;
+    margin-right: 30px;
+    text-align: center;
+    color: #94caee;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.benefit-col1 {
+    background-image: url(../pic/luutru.png);
+}
+
+.benefit-col2 {
+    background-image: url(../pic/baomat.jpg);
+}
+
+.benefit-col3 {
+    background-image: url(../pic/quanly.png);
+}
+
+.benefit {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cotainer3 {
+    margin-top: 50px;
+}
+
+.cotainer3 h2 {
+    text-align: center;
+}
+
+.introduce {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.introduce img {
+    margin-right: 10%;
+}
+
+.introduce p {
+    margin-top: 50px;
+    font-size: 15px;
+    word-spacing: 10px;
+    width: 40%;
+    font-weight: 700;
+}
+
+.cotainer4 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.feedback-all {
+    width: 30%;
+    border-left: solid black 1px ;
+    border-right: solid black 1px ;
+}
+
+.feedback-all p {
+    width: 60%;
+    margin-left: 20%;
+    font-style: italic;
+}
+
+.feedback-all img {
+    margin-right: 3%;
+    margin-bottom: 15px;
+    border-radius: 100px;
+}
+
+.map-section img {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.footer {
+    height: 300px;
+    background-color: #94caee;
+}
+
+.footer h3 {
+    margin-left: 100px;
+}
+
+.footer p {
+    display: inline-block;
+    background-color: rgb(100, 95, 95);
+    color: #94caee;
+    border-radius: 50px;
+    padding: 50px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+#form_signin {
+    display: none;
+    width: 400px;
+    height: 300px;
+    background-color: #9ebed3;
+    position: absolute;
+    z-index: 1;
+    top:300px;
+    left:800px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 20px;
+    position: fixed;
+}
+
+#form_signin form {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#form_signin form input {
+    padding: 3px;
+    margin-top: 20px;
+}
+
+#form_signin_title {
+    margin-left: 150px;
+    font-size: 23px;
+}
+
+#form_signin form p {
+    margin-top: 15px;
+}
+
+#form_signup {
+    display: none;
+    width: 400px;
+    height: 300px;
+    background-color: #9ebed3;
+    position: absolute;
+    z-index: 1;
+    top:300px;
+    left:800px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 20px;
+    position: fixed;
+}
+
+#form_signup form {
+    margin-top: 1px;
+    margin-left: 20px;
+}
+
+#form_signup form input {
+    padding: 3px;
+    margin-top: 15px;
+}
+
+#form_signup_title {
+    margin-left: 100px;
+    font-size: 23px;
+}
+
+#form_signup form p {
+    margin-top: 0px;
+}
+
+.close_item1 {
+    margin-left: 90%;
+}
+
+.close_item1:hover{
+    cursor: pointer;
+}
+
+.close_item2 {
+    margin-left: 90%;
+    margin-top: 10px;
+}
+
+.close_item2:hover{
+    cursor: pointer;
+}
+
+.eye1 {
+    margin-left: 2%;
+}
+
+#congra_signup {
+    font-size: 14px;
+    color:red;
+    margin-left: 100px;
+    display: none;
+}
+
+#congra_signin {
+    font-size: 14px;
+    color:red;
+    margin-left: 100px;
+    display: none;
+}
+
+
+
+

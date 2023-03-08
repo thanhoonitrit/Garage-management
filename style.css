@@ -1,0 +1,93 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    background-color: #d7eaf7;
+}
+
+.header-img {
+    width: 15%;
+}
+
+.header-nav {
+    width: 70%;
+}
+.header-create {
+    width: 20%;
+}
+
+.header-nav ul{
+    display: flex;
+    margin-top: 33px;
+    width: 100%;
+}
+
+.header-nav ul li{
+    list-style-type: none;
+    width: 16%;
+}
+
+.header-nav ul li a:hover {
+    background-color:#94caee;
+}
+
+.header-nav ul li a {
+    color: #045056;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #cba128;
+    padding: 7px;
+    border-radius: 10px;
+
+}
+
+.header-create ul{
+    display: flex;
+    margin-top: 33px;
+    width: 100%;
+}
+
+.header-create ul li{
+    list-style-type: none;
+    width:50%;
+}
+
+.header-create ul li a:hover {
+    background-color:#94caee;
+}
+
+.header-create ul li a {
+    color: #045056;
+    font-size: 19px;
+    text-decoration: none;
+    background-color: #cba128;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.cotainer1 {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
